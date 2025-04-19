@@ -7,6 +7,7 @@ import bgAlter1 from "./assets/images/Gambar-2.png";
 import decorative1 from "./assets/images/decorative-1.png";
 import decorative2 from "./assets/images/decorative-2.png";
 import Background1 from "./assets/images/Background-1.png";
+import Background3 from "./assets/images/Gambar-3.png";
 import Logo_1 from "./assets/images/logo_1.png";
 import bg2 from "./assets/images/bg_2.png";
 import bg3 from "./assets/images/Background-2.png";
@@ -17,7 +18,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <section
+      {/* <section
         id="hero"
         className="rajdhani relative bg-cover bg-center bg-no-repeat h-[1000px] w-full text-white flex flex-col items-center justify-center px-6 md:px-16 lg:px-32 py-20 gap-6 text-center overflow-hidden"
       >
@@ -30,12 +31,32 @@ const App = () => {
         <img
           src={Logo_1}
           alt="Logo"
-          className="w-[500px] md:w-[600px] lg:w-[700px] h-auto z-10"
+          className="w-[500px] md:w-[600px] lg:w-[200px] h-auto z-10"
         />
 
-        {/* <h1 className="text-sm md:text-lg lg:text-2xl bg-yellow-500 rounded-xl font-bold text-black py-2 px-4 z-10">
+        <h1 className="text-sm md:text-lg lg:text-2xl bg-yellow-500 rounded-xl font-bold text-black py-2 px-4 z-10">
           CA : CjAreLw1YXcCv5g4iRT7VMouuMfa8Rvtt7mynsdr8qDJ
-        </h1> */}
+        </h1>
+      </section> */}
+
+      <section
+        id="hero"
+        className="rajdhani relative bg-cover bg-center bg-no-repeat h-[800px] w-full text-white flex flex-col lg:flex-row items-center justify-center px-6 md:px-16 lg:px-32 py-20 gap-10 text-center lg:text-left overflow-hidden"
+      >
+        <img
+          src={Background1}
+          alt="Background"
+          className="absolute inset-0 w-full h-full object-cover -z-10"
+        />
+        <div className="mt-[500px] text-center">
+          <h1 className="text-sm md:text-8xl text-black mt-4 font-boldoa1 font-extrabold">
+            Hello Kittens &lt;3_
+          </h1>
+          <br></br>
+          {/* <h1 className="text-md md:text-2xl bg-yellow-500 rounded-xl font-bold text-black xl:py-2 xl:px-4 inline-block">
+            CA : CjAreLw1YXcCv5g4iRT7VMouuMfa8Rvtt7mynsdr8qDJ
+          </h1> */}
+        </div>
       </section>
 
       <br></br>
@@ -60,16 +81,22 @@ const App = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-4 max-w-xl">
-            <h1 className="font-semibold text-[36px] md:text-[50px] leading-tight font-boldoa">
-              WHAT IS CUM COIN DADDY?
+          <div className="flex flex-col gap-4 max-w-xl text-black">
+            <h1 className="font-semibold text-[36px] md:text-[35px] leading-tight">
+              user123 Replied :
             </h1>
-            <h1 className="text-base md:text-lg container font-semibold">
-              Forget Wall Street. Forget Bitcoin. Cum Coin is the only currency
-              that's truly liquid. Fueled by bad decisions, late-night thirst,
-              and questionable life choices, Cum Coin is your one-way ticket to
-              blasting through the boring and embracing the sticky side of life.
-              No pumps. No dumps. Just endless... eruptions.
+            <h1 className="font-semibold text-[36px] md:text-[35px] leading-tight">
+              What's blobjack coins, Kittens?
+            </h1>
+            <h1 className="text-base md:text-lg container font-reguler">
+              Blobjack Coin is more than just digital currency — it’s a
+              lifestyle. Earn by being based, trade with fellow mods, and
+              collect rare moments of pure sigma energy. No gas fees. No L’s.
+              Just pure unfiltered power.
+            </h1>
+            <h1 className="text-base md:text-lg container font-reguler">
+              Join the cult, stack your coins, and make the keyboard masters
+              cope harder every day.
             </h1>
           </div>
         </div>
@@ -78,7 +105,7 @@ const App = () => {
       <section
         className="rajdhani text-white px-6 md:px-16 lg:px-32 py-20"
         style={{
-          backgroundImage: `url(${Background1})`,
+          backgroundImage: `url(${Background3})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
@@ -86,25 +113,15 @@ const App = () => {
       >
         <div className="flex flex-col lg:flex-row items-center xl:gap-40 gap-40 justify-center text-center lg:text-left">
           <div className="flex flex-col gap-4 max-w-xl">
-            <h1 className="font-semibold text-[36px] md:text-[50px] leading-tight font-boldoa">
-              JOIN THE CUM COIN SPERM BANK
+            <h1 className="font-semibold text-[36px] md:text-[35px] leading-tight">
+              Join in, and defeat Keyboard Masters
             </h1>
-            <div className="bg-stone-500 rounded-xl py-2 px-4 font-boldoa">
-              <p className="text-base md:text-lg font-semibold ">
-                Tired of dry investments? Ready to shoot your shot into
-                something truly explosive? Join the Cum Coin Sperm Bank — where
-                your loyalty is measured in stamina, not spreadsheets. Connect
-                with other highly "motivated" individuals who know how to keep
-                things flowing. Warning: Frequent exposure may cause blurred
-                vision, weak knees, and unsolicited text messages.
-              </p>
-              <br></br>
+            <div className="">
               <p className="text-base md:text-lg font-semibold">
-                Cum Coin. For those who finish what they start.
+                Unleash your inner Sigma. Step into the digital warzone and rise
+                above the keyboard warriors. This isn't just about memes — it's
+                about dominance, status, and knowing the catgirls are watching.
               </p>
-              <div className="absolute bg-stone-800 ml-[180px] text-white px-6 py-6 rounded-full shadow-lg text-lg font-semibold">
-                JOIN NOW
-              </div>
             </div>
           </div>
           <div className="w-full lg:w-1/2">

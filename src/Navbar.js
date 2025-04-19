@@ -13,9 +13,9 @@ const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="rajdhani flex justify-between items-center px-8 py-[70px] text-white absolute top-0 left-0 right-0 w-full z-50">
+    <nav className="rajdhani flex justify-between items-center px-8 py-1 text-white absolute top-0 left-0 right-0 w-full z-50">
       <div className="flex items-center gap-2">
-        {/* <img src={logo} alt="Logo" width={70} height={78} /> */}
+        <img src={logo} alt="Logo" width={70} height={78} />
       </div>
 
       {/* Desktop menu */}
@@ -26,7 +26,7 @@ const Navbar = () => {
           rel="noopener noreferrer"
           className="flex items-center gap-2"
         >
-          <div className="w-10 h-10 rounded-full bg-black flex items-center justify-center">
+          <div className="w-10 h-10 rounded-full bg-white flex items-center justify-center">
             <FaXTwitter size={20} color="#A3A3A3" />{" "}
           </div>
           <span className="text-4xl font-boldoa2">X: LINK</span>
