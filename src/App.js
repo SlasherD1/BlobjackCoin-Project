@@ -30,17 +30,16 @@ const App = () => {
         />
 
         {/* Hero Content */}
-        <div className="max-w-5xl w-full flex flex-col items-center justify-center gap-6 mt-[500px] xl:mt-[700px]">
-          <h1 className="text-6xl md:text-6xl lg:text-8xl text-black font-boldoa1 font-extrabold leading-tigh ">
+        <div className="max-w-5xl w-full flex flex-col items-center justify-center gap-6 mt-[500px] xl:mt-[600px]">
+          <h1 className="text-5xl md:text-6xl lg:text-8xl text-black font-boldoa1 font-extrabold leading-tigh ">
             Hello Kittens &lt;3_
           </h1>
 
           {/* Optional subtitle */}
-          {/* 
-    <h2 className="text-base md:text-xl bg-yellow-500 rounded-xl font-bold text-black px-4 py-2">
-      CA : CjAreLw1YXcCv5g4iRT7VMouuMfa8Rvtt7mynsdr8qDJ
-    </h2> 
-    */}
+
+          <h2 className="text-base md:text-xl text-sm bg-yellow-500 rounded-xl font-bold text-black px-4 py-2">
+            CA : BBCL8cnqNwqQGoc3xJeM88oJmFAC2srnE2YUMHLMAHMm
+          </h2>
         </div>
       </section>
 
